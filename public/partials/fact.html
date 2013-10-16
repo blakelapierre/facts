@@ -1,0 +1,28 @@
+<domain-breadcrumb domain="fact.domain"></domain-breadcrumb>
+<div class="well text-center">
+	<div class="btn-group">
+		<button type="button" class="btn btn-default">More Relevant</button>
+		<button type="button" class="btn btn-info">Relevant</button>
+		<button type="button" class="btn btn-default">Less Relevant</button>
+	</div>
+	<p><h1>{{fact.text}}</h1></p>
+	<p><h3>{{fact.detail}}</h3></p>
+
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#evidence" data-toggle="tab">Evidence</a></li>
+		<li><a href="#relevance" data-toggle="tab">Relevance</a></li>
+		<li><a href="#domain" data-toggle="tab">Domain</a></li>
+		<li><a href="#history" data-toggle="tab">History</a></li>
+		<li><a href="#discussions" data-toggle="tab">Discussions</a></li>
+	</ul>
+
+	<div class="tab-content">
+		<div class="tab-pane active text-left" id="evidence">
+			<evidence-list></evidence-list>
+		</div>
+		<div class="tab-pane" id="relevance">Relevance goes here</div>
+		<div class="tab-pane" id="domain">Domain goes here</div>
+		<div class="tab-pane" id="history">History goes here</div>
+		<div class="tab-pane" id="discussions">Discussions go here</div>
+	</div>
+</div>

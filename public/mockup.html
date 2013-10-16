@@ -1,0 +1,41 @@
+<!doctype html>
+<html ng-app="Facts">
+<head>
+	<title>Most Relevant Facts</title>
+
+	<script type="text/javascript" src="/js/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/angular.1.2.0rc1.min.js"></script>
+
+	<link rel="stylesheet" href="/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/css/facts.css" />
+</head>
+<body>
+	<ol class="breadcrumb">
+		<li>Domain</li>
+		<li>Sub-Domain</li>
+		<li class="active">Sub-Sub-Domain</li>
+	</ol>
+	<div class="well text-center">
+		<p><h1>This is a fact.</h1></p>
+		<p><h3>This is more detailed information about the fact.</h3></p>
+
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#evidence" data-toggle="tab">Evidence</a></li>
+			<li><a href="#relevance" data-toggle="tab">Relevance</a></li>
+			<li><a href="#domain" data-toggle="tab">Domain</a></li>
+			<li><a href="#history" data-toggle="tab">History</a></li>
+			<li><a href="#discussions" data-toggle="tab">Discussions</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<div class="tab-pane active" id="evidence">Evidence goes here</div>
+			<div class="tab-pane" id="relevance">Relevance goes here</div>
+			<div class="tab-pane" id="domain">Domain goes here</div>
+			<div class="tab-pane" id="history">History goes here</div>
+			<div class="tab-pane" id="discussions">Discussions go here</div>
+		</div>
+	</div>
+
+</body>
+</html>

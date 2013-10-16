@@ -1,0 +1,9 @@
+{
+    "name": "facts",
+    "version": "0.0.1",
+    "description": "most relevant facts",
+    "dependencies": {
+        "express": "latest"
+    },
+    "author": "Blake La Pierre"
+}
